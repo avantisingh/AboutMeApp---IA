@@ -45,14 +45,48 @@ struct ContentView: View {
                                 
                             
                         }
+                        Button("Click here for more facts!")
+                                        {
+                                           Info = "1. I am currently majoring in Aerospace Engineering"
+                                            Info2 = "2. My hobbies include reading, playing tennis, and working out"
+                                            Info3 = "3. My favorite food is pasta and I love dining hall cookies"
+                                            Info4 = "4. I love watching sunsets and sunrises"
+                                            Info5 = "5. My favorite TV show is the Night Agent"
+                                            
+                                        }
+                                        .font(.title2)
+                                        .buttonStyle(.borderedProminent)
+                                        .foregroundColor(Color(.sRGB, red: 0.92941176, green: 0.96470588, blue: 0.97647059))
+                                        .fontWeight(.medium)
+                                        .tint(Color(.sRGB, red: 0.51372549, green: 0.77254902, blue: 0.74509804))
+                                        
+                                        Text(Info)
+                                            .fontWeight(.semibold)
+                                            .fontWeight(.black)
+                                            .foregroundColor(Color(.sRGB, red: 0.92941176, green: 0.96470588, blue: 0.97647059))
+                                            
+                                        Text(Info2)
+                                            .foregroundColor(Color(.sRGB, red: 0.92941176, green: 0.96470588, blue: 0.97647059))
+                                            .fontWeight(.semibold)
+                                            .fontWeight(.black)
+                                        Text(Info3)
+                                            .foregroundColor(Color(.sRGB, red: 0.92941176, green: 0.96470588, blue: 0.97647059))
+                                            .fontWeight(.semibold)
+                                            .fontWeight(.black)
+                                        Text(Info4)
+                                            .foregroundColor(Color(.sRGB, red: 0.92941176, green: 0.96470588, blue: 0.97647059))
+                                            .fontWeight(.semibold)
+                                            .fontWeight(.black)
+                                        Text(Info5)
+                                            .foregroundColor(Color(.sRGB, red: 0.92941176, green: 0.96470588, blue: 0.97647059))
+                                            .fontWeight(.semibold)
+                                            .fontWeight(.black)
                         
-                        
-                        
-                    }
-                
                     
-                    
-                }
+                        
+            }
+                    .padding()
+        }
     }
 }
 
